@@ -1,0 +1,18 @@
+flechas cambiar por : (dos puntos)
+finalizar producciones con ;
+caracter entre comillas simples
+
+RELACIONALES NO VA
+LOGICO NO VA SON PALABRAS RESERVADAS
+ARITMETICO
+
+ENTERO como token
+
+STRING como token
+
+DOS TIPOS DE IDENTIFICADORES
+	IDEN_CARAC IDEN_NUME
+
+RAN_ASC : rango ascii 32-126
+NUMLINEA : rango numero de lineas 1-65535
+
