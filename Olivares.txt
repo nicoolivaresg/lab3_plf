@@ -1,0 +1,6 @@
+1 REM Esto es un programa que indica si su número es positivo o negativo
+10 INPUT "INGRESA UN NUMERO: " N
+20 PRINT N
+30 IF (N >= 0) THEN PRINT "NUMERO POSITIVO" ELSE PRINT "NUMERO NEGATIVO" ENDIF
+70 PRINT "GOOD BYE"
+80 END

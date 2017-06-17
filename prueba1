@@ -1,0 +1,2 @@
+10 WHILE ( a>b ) DO 
+30 LEN("h") WEND 

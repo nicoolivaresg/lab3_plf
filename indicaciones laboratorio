@@ -16,3 +16,43 @@ DOS TIPOS DE IDENTIFICADORES
 RAN_ASC : rango ascii 32-126
 NUMLINEA : rango numero de lineas 1-65535
 
+COMENTARIO: pueden ser cualquier caracter incluso comillas 
+
+Compilar:
+	1) flex lexico.c
+	2) bison -y sintactico.y
+	3) gcc lex.yy.c y.tab.c -o sintactico
+
+Formato Bison:
+	%{
+		Declaraciones en C
+	%}
+	%%
+		Reglas gramaticales (GIC de Bison)
+	%%
+	%{
+		Código de C adicional (esto no va para el lab)
+	%}
+
+Formato Flex:
+	%{
+		Declaraciones en C
+	%}
+	%%
+		Lo que estoy buscando
+		Describir lo que quiero encontrar:
+			Identificadores
+			Strings
+			Etc
+	%%
+	%{
+		Código de C adicional (esto no va para el lab)
+	%}
+
+
+####################
+Por hacer:
+	Revisar warning impreso
+	Revisar warning yyparse();
+
+##################
